@@ -237,8 +237,21 @@ header.masthead {
 .img-flex {
   width: 100%; }
 
-#mainNav {
+#mainNav, .card {
   background-color: #E8E9F3 !important; }
+
+.card {
+  border: solid #B1E5F2 5px;
+  margin: 10px;
+  color: #005130; }
+  .card h3 {
+    padding-top: 15px; }
 
 .nav-link {
   color: #005130 !important; }
+
+hr {
+  border-color: #E8E9F3 !important; }
+
+.bg-primary {
+  background-color: #005130 !important; }
