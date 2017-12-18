@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "bootstrap-overrides.scss";
+
+// Colours
+  $darkGreen: #005130;
+  $offWhite: #E8E9F3;
+  $lightGrey: #CECECE;
+  $medGrey: #A6A6A8;
+  $lightBlue: #B1E5F2;
+
+// Measurements
+  $fullWidth: 100%;
+
+// Styles
+
+  .logo {
+    width: 50px;
+  }
+
+  .img-flex {
+    width: $fullWidth;
+  }
+
+  #mainNav {
+    background-color: $offWhite!important;
+  }
+
+  .nav-link {
+    color: $darkGreen!important;
+  }
