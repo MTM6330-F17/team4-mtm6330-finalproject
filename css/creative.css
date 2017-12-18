@@ -231,11 +231,21 @@ header.masthead {
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
+html {
+  background-color: #E8E9F3; }
+
 .logo {
   width: 50px; }
 
 .img-flex {
   width: 100%; }
+
+header h1 {
+  color: #005130 !important; }
+
+header .row {
+  padding-top: 15%;
+  padding-bottom: 10%; }
 
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
@@ -251,7 +261,7 @@ header.masthead {
   color: #005130 !important; }
 
 hr {
-  border-color: #E8E9F3 !important; }
+  border-color: #005130 !important; }
 
 .bg-primary {
   background-color: #005130 !important; }
