@@ -33,6 +33,15 @@
     width: 50px;
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Economica', sans-serif;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
   .img-flex {
     width: $fullWidth;
   }
@@ -74,7 +83,8 @@
 
   .bg-primary p {
     text-align: $leftAlign;
-    font-weight: normal;
+    padding-left: 15px;
+    padding-right: 10px;
   }
 
   .bg-primary .card {
