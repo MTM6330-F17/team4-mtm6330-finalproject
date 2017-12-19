@@ -109,12 +109,16 @@
 
   .bg-primary {
     background-color: $darkGreen!important;
+    display: none;
   }
 
-    .mobile {
-      display: block;
+  .mobile {
+    display: block;
+    a {
+      color: $darkGreen!important;
     }
   }
+
 
   @media only screen and (min-width: 60em) {
     .bg-primary {
