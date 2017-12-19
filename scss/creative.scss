@@ -110,3 +110,21 @@
   .bg-primary {
     background-color: $darkGreen!important;
   }
+
+  @media only screen and (min-width: 25em) {
+    .hide {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 38em) {
+  }
+
+  @media only screen and (min-width: 60em) {
+    .hide {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 90em) {
+  }
