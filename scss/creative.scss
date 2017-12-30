@@ -21,6 +21,7 @@
   $ib: inline-block;
   $leftAlign: left;
   $rightAlign: right;
+  $centerAlign: center;
 
 
 // Styles
@@ -117,7 +118,21 @@
     a {
       color: $darkGreen!important;
     }
+    .img-center {
+      margin: 0 auto;
+      display: block;
+      width: 150px;
+      padding-top: 15px;
+    }
+    .text-center {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+      margin: 0 auto;
+    }
   }
+
+
 
 
   @media only screen and (min-width: 60em) {
