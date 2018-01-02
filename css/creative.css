@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -272,19 +272,19 @@ header .card {
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
 
-.bg-primary {
+.bg-primary-hannah {
   color: #E8E9F3 !important; }
 
-.bg-primary p {
+.bg-primary-hannah p {
   text-align: left;
   padding-left: 15px;
   padding-right: 10px; }
 
-.bg-primary .card {
+.bg-primary-hannah .card {
   border: solid #B1E5F2 5px;
   margin: 10px;
   color: #005130 !important; }
-  .bg-primary .card h3 {
+  .bg-primary-hannah .card h3 {
     padding-top: 15px; }
 
 .nav-link {
@@ -293,7 +293,7 @@ header .card {
 hr {
   border-color: #005130 !important; }
 
-.bg-primary {
+.bg-primary-hannah {
   background-color: #005130 !important;
   display: none; }
 
@@ -313,7 +313,7 @@ hr {
     margin: 0 auto; }
 
 @media only screen and (min-width: 60em) {
-  .bg-primary {
+  .bg-primary-hannah {
     display: block; }
   .mobile {
     display: none; }

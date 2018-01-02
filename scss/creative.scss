@@ -78,17 +78,17 @@
     background-color: $offWhite!important;
   }
 
-  .bg-primary {
+  .bg-primary-hannah {
     color: $offWhite!important;
   }
 
-  .bg-primary p {
+  .bg-primary-hannah p {
     text-align: $leftAlign;
     padding-left: 15px;
     padding-right: 10px;
   }
 
-  .bg-primary .card {
+  .bg-primary-hannah .card {
     border: solid $lightBlue 5px;
     margin: 10px;
     color: $darkGreen!important;
@@ -108,7 +108,7 @@
     border-color: $darkGreen!important;
   }
 
-  .bg-primary {
+  .bg-primary-hannah {
     background-color: $darkGreen!important;
     display: none;
   }
@@ -136,7 +136,7 @@
 
 
   @media only screen and (min-width: 60em) {
-    .bg-primary {
+    .bg-primary-hannah {
       display: block;
     }
     .mobile {
