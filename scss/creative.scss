@@ -55,6 +55,12 @@
   header h1 {
     color: $darkGreen!important;
   }
+
+  header h2 {
+    color: $darkGreen!important;
+    font-size: 2.5rem;
+  }
+
    header .row {
      padding-top: 15%;
      padding-bottom: 10%;
@@ -67,11 +73,22 @@
      padding: 10px;
      margin-left: 15px;
      margin-right: 15px;
+   }
 
+   .bg-primary {
+     background-color: $darkGreen!important;
    }
 
    .btn-primary {
      display: none;
+   }
+
+   .campus {
+     padding-top: 30px;
+   }
+
+   .contact-text {
+     padding-top: 10px;
    }
 
   #mainNav, .card {
@@ -132,6 +149,12 @@
     }
   }
 
+  .map {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+  }
+
 
 
 
@@ -139,6 +162,13 @@
     .bg-primary-hannah {
       display: block;
     }
+
+    .map {
+      width: 100%;
+      margin: 0 auto;
+      height: 400px;
+    }
+
     .mobile {
       display: none;
     }
