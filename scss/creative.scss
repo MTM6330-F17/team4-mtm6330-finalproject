@@ -1,0 +1,167 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "bootstrap-overrides.scss";
+
+// Colours
+  $darkGreen: #005130;
+  $offWhite: #E8E9F3;
+  $lightGrey: #CECECE;
+  $medGrey: #A6A6A8;
+  $lightBlue: #B1E5F2;
+
+// Parameters
+  $fullWidth: 100%;
+  $halfWidth: 50%;
+
+  $ib: inline-block;
+  $leftAlign: left;
+  $rightAlign: right;
+  $centerAlign: center;
+
+
+// Styles
+
+  html {
+    background-color: $offWhite;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Economica', sans-serif;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  .img-flex {
+    width: $fullWidth;
+  }
+
+  .img-break {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  header h1 {
+    color: $darkGreen!important;
+  }
+   header .row {
+     padding-top: 15%;
+     padding-bottom: 10%;
+   }
+
+   header .card {
+     background-color: rgba(177, 229, 242, 0.5)!important;
+     border-color: rgba(177, 229, 242, 0.25)!important;
+     color: $darkGreen!important;
+     padding: 10px;
+     margin-left: 15px;
+     margin-right: 15px;
+
+   }
+
+   .btn-primary {
+     display: none;
+   }
+
+  #mainNav, .card {
+    background-color: $offWhite!important;
+  }
+
+  .bg-primary-hannah {
+    color: $offWhite!important;
+  }
+
+  .bg-primary-hannah p {
+    text-align: $leftAlign;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .bg-primary-hannah .card {
+    border: solid $lightBlue 5px;
+    margin: 10px;
+    color: $darkGreen!important;
+    h3 {
+    padding-top: 15px;
+    }
+    h4 {
+
+    }
+  }
+
+  .nav-link {
+    color: $darkGreen!important;
+  }
+
+  hr {
+    border-color: $darkGreen!important;
+  }
+
+  .bg-primary-hannah {
+    background-color: $darkGreen!important;
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    a {
+      color: $darkGreen!important;
+    }
+    .img-center {
+      margin: 0 auto;
+      display: block;
+      width: 150px;
+      padding-top: 15px;
+    }
+    .text-center {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+
+
+
+  @media only screen and (min-width: 60em) {
+    .bg-primary-hannah {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+
+    .button {
+      margin-top: 50px;
+    }
+    .btn-primary {
+      display: block;
+      background-color: $darkGreen;
+      color: $offWhite;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .card h5 a {
+      color: $darkGreen!important;
+    }
+    .img-center {
+      margin: 0 auto;
+      display: block;
+      width: 150px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+  }
