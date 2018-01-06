@@ -73,7 +73,10 @@
      padding: 10px;
      margin-left: 15px;
      margin-right: 15px;
+<<<<<<< Updated upstream
    }
+=======
+>>>>>>> Stashed changes
 
    .bg-primary {
      background-color: $darkGreen!important;
@@ -81,6 +84,7 @@
 
    .btn-primary {
      display: none;
+<<<<<<< Updated upstream
    }
 
    .campus {
@@ -89,27 +93,33 @@
 
    .contact-text {
      padding-top: 10px;
+=======
+>>>>>>> Stashed changes
    }
 
   #mainNav, .card {
     background-color: $offWhite!important;
   }
 
-  .bg-primary {
+  .bg-primary-hannah {
     color: $offWhite!important;
   }
 
+<<<<<<< Updated upstream
   .card {
     color: #000000;
   }
 
   .bg-primary p {
+=======
+  .bg-primary-hannah p {
+>>>>>>> Stashed changes
     text-align: $leftAlign;
     padding-left: 15px;
     padding-right: 10px;
   }
 
-  .bg-primary .card {
+  .bg-primary-hannah .card {
     border: solid $lightBlue 5px;
     margin: 10px;
     color: $darkGreen!important;
@@ -126,8 +136,9 @@
     border-color: $darkGreen!important;
   }
 
-  .bg-primary {
+  .bg-primary-hannah {
     background-color: $darkGreen!important;
+    display: none;
   }
 
   .mobile {
@@ -149,17 +160,21 @@
     }
   }
 
+<<<<<<< Updated upstream
   .map {
     width: 100%;
     margin: 0 auto;
     height: 300px;
   }
 
+=======
+>>>>>>> Stashed changes
 
 
 
   @media only screen and (min-width: 60em) {
     .bg-primary-hannah {
+<<<<<<< Updated upstream
       display: block;
     }
 
@@ -168,6 +183,24 @@
       margin: 0 auto;
       height: 400px;
     }
+
+    .button {
+      margin-top: 50px;
+    }
+    .btn-primary {
+=======
+>>>>>>> Stashed changes
+      display: block;
+      background-color: $darkGreen;
+      color: $offWhite;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .card h5 a {
+      color: $darkGreen!important;
+    }
+<<<<<<< Updated upstream
+=======
 
     .button {
       margin-top: 50px;
@@ -182,6 +215,7 @@
     .card h5 a {
       color: $darkGreen!important;
     }
+>>>>>>> Stashed changes
     .img-center {
       margin: 0 auto;
       display: block;
