@@ -244,15 +244,19 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300; }
 
-.img-flex {
-  width: 100%; }
+.nav-link {
+  color: #005130 !important; }
 
 .img-break {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-header h1 {
-  color: #005130 !important; }
+header h1 strong {
+  color: #005130 !important;
+  font-size: 3rem; }
+
+hr {
+  border-color: #005130 !important; }
 
 header h2 {
   color: #005130 !important;
@@ -269,129 +273,65 @@ header .card {
   padding: 10px;
   margin-left: 15px;
   margin-right: 15px; }
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 .bg-primary {
   background-color: #005130 !important; }
+  .bg-primary h2, .bg-primary p, .bg-primary ul {
+    color: #E8E9F3 !important; }
 
 .btn-primary {
   display: none; }
-
-.campus {
-  padding-top: 30px; }
-
-.contact-text {
-  padding-top: 10px; }
-<<<<<<< HEAD
-=======
-=======
-
-.btn-primary {
-  display: none; }
->>>>>>> Stashed changes
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
 
-.bg-primary-hannah {
-  color: #E8E9F3 !important; }
-
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
-.card {
-  color: #000000; }
+#accordion p, #accordion ul {
+  color: #005130 !important; }
 
 .bg-primary p {
-=======
-.bg-primary-hannah p {
->>>>>>> Stashed changes
   text-align: left;
   padding-left: 15px;
   padding-right: 10px; }
 
-.bg-primary-hannah .card {
+.bg-primary .card {
   border: solid #B1E5F2 5px;
   margin: 10px;
   color: #005130 !important; }
-  .bg-primary-hannah .card h3 {
+  .bg-primary .card h3 {
     padding-top: 15px; }
 
-.nav-link {
-  color: #005130 !important; }
+.img-center {
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 10px; }
 
-hr {
-  border-color: #005130 !important; }
-
-.bg-primary-hannah {
-  background-color: #005130 !important;
-  display: none; }
-
-.mobile {
-  display: block; }
-  .mobile a {
-    color: #005130 !important; }
-  .mobile .img-center {
-    margin: 0 auto;
-    display: block;
-    width: 150px;
-    padding-top: 15px; }
-  .mobile .text-center {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    margin: 0 auto; }
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
+.img-flex {
+  width: 100%; }
 
 .map {
   width: 100%;
   margin: 0 auto;
   height: 300px; }
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
+
+.img-center-schedules {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  padding-top: 15px; }
 
 @media only screen and (min-width: 60em) {
-  .bg-primary-hannah {
-    display: block; }
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
   .map {
     width: 100%;
     margin: 0 auto;
     height: 400px; }
-<<<<<<< HEAD
-=======
-=======
-  .mobile {
-    display: none; }
->>>>>>> Stashed changes
->>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
   .button {
     margin-top: 50px; }
   .btn-primary {
     display: block;
-    background-color: #005130;
-    color: #E8E9F3;
+    background-color: #005130 !important;
     width: 50%;
     margin: 0 auto; }
-  .card h5 a {
-    color: #005130 !important; }
-  .img-center {
-    margin: 0 auto;
-    display: block;
-    width: 150px;
-    padding-top: 15px;
-    padding-bottom: 15px; } }
+  .btn-primary a {
+    color: #E8E9F3 !important; } }
