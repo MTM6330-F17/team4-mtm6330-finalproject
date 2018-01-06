@@ -269,6 +269,10 @@ header .card {
   padding: 10px;
   margin-left: 15px;
   margin-right: 15px; }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 .bg-primary {
   background-color: #005130 !important; }
@@ -281,26 +285,41 @@ header .card {
 
 .contact-text {
   padding-top: 10px; }
+<<<<<<< HEAD
+=======
+=======
+
+.btn-primary {
+  display: none; }
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
 
-.bg-primary {
+.bg-primary-hannah {
   color: #E8E9F3 !important; }
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 .card {
   color: #000000; }
 
 .bg-primary p {
+=======
+.bg-primary-hannah p {
+>>>>>>> Stashed changes
   text-align: left;
   padding-left: 15px;
   padding-right: 10px; }
 
-.bg-primary .card {
+.bg-primary-hannah .card {
   border: solid #B1E5F2 5px;
   margin: 10px;
   color: #005130 !important; }
-  .bg-primary .card h3 {
+  .bg-primary-hannah .card h3 {
     padding-top: 15px; }
 
 .nav-link {
@@ -309,8 +328,9 @@ header .card {
 hr {
   border-color: #005130 !important; }
 
-.bg-primary {
-  background-color: #005130 !important; }
+.bg-primary-hannah {
+  background-color: #005130 !important;
+  display: none; }
 
 .mobile {
   display: block; }
@@ -326,19 +346,39 @@ hr {
     padding-bottom: 10px;
     width: 90%;
     margin: 0 auto; }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 .map {
   width: 100%;
   margin: 0 auto;
   height: 300px; }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 @media only screen and (min-width: 60em) {
   .bg-primary-hannah {
     display: block; }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
   .map {
     width: 100%;
     margin: 0 auto;
     height: 400px; }
+<<<<<<< HEAD
+=======
+=======
+  .mobile {
+    display: none; }
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
   .button {
     margin-top: 50px; }
   .btn-primary {
