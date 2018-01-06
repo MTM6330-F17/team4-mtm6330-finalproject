@@ -55,6 +55,12 @@
   header h1 {
     color: $darkGreen!important;
   }
+
+  header h2 {
+    color: $darkGreen!important;
+    font-size: 2.5rem;
+  }
+
    header .row {
      padding-top: 15%;
      padding-bottom: 10%;
@@ -67,36 +73,48 @@
      padding: 10px;
      margin-left: 15px;
      margin-right: 15px;
+   }
 
+   .bg-primary {
+     background-color: $darkGreen!important;
    }
 
    .btn-primary {
      display: none;
    }
 
+   .campus {
+     padding-top: 30px;
+   }
+
+   .contact-text {
+     padding-top: 10px;
+   }
+
   #mainNav, .card {
     background-color: $offWhite!important;
   }
 
-  .bg-primary-hannah {
+  .bg-primary {
     color: $offWhite!important;
   }
 
-  .bg-primary-hannah p {
+  .card {
+    color: #000000;
+  }
+
+  .bg-primary p {
     text-align: $leftAlign;
     padding-left: 15px;
     padding-right: 10px;
   }
 
-  .bg-primary-hannah .card {
+  .bg-primary .card {
     border: solid $lightBlue 5px;
     margin: 10px;
     color: $darkGreen!important;
     h3 {
     padding-top: 15px;
-    }
-    h4 {
-
     }
   }
 
@@ -108,9 +126,8 @@
     border-color: $darkGreen!important;
   }
 
-  .bg-primary-hannah {
+  .bg-primary {
     background-color: $darkGreen!important;
-    display: none;
   }
 
   .mobile {
@@ -132,6 +149,12 @@
     }
   }
 
+  .map {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+  }
+
 
 
 
@@ -139,8 +162,11 @@
     .bg-primary-hannah {
       display: block;
     }
-    .mobile {
-      display: none;
+
+    .map {
+      width: 100%;
+      margin: 0 auto;
+      height: 400px;
     }
 
     .button {
