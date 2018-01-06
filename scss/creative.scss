@@ -73,7 +73,14 @@
      padding: 10px;
      margin-left: 15px;
      margin-right: 15px;
+<<<<<<< HEAD
    }
+=======
+<<<<<<< Updated upstream
+   }
+=======
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
    .bg-primary {
      background-color: $darkGreen!important;
@@ -81,6 +88,10 @@
 
    .btn-primary {
      display: none;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
    }
 
    .campus {
@@ -89,27 +100,39 @@
 
    .contact-text {
      padding-top: 10px;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
    }
 
   #mainNav, .card {
     background-color: $offWhite!important;
   }
 
-  .bg-primary {
+  .bg-primary-hannah {
     color: $offWhite!important;
   }
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
   .card {
     color: #000000;
   }
 
   .bg-primary p {
+=======
+  .bg-primary-hannah p {
+>>>>>>> Stashed changes
     text-align: $leftAlign;
     padding-left: 15px;
     padding-right: 10px;
   }
 
-  .bg-primary .card {
+  .bg-primary-hannah .card {
     border: solid $lightBlue 5px;
     margin: 10px;
     color: $darkGreen!important;
@@ -126,8 +149,9 @@
     border-color: $darkGreen!important;
   }
 
-  .bg-primary {
+  .bg-primary-hannah {
     background-color: $darkGreen!important;
+    display: none;
   }
 
   .mobile {
@@ -149,17 +173,30 @@
     }
   }
 
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
   .map {
     width: 100%;
     margin: 0 auto;
     height: 300px;
   }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
 
 
 
   @media only screen and (min-width: 60em) {
     .bg-primary-hannah {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
       display: block;
     }
 
@@ -168,6 +205,29 @@
       margin: 0 auto;
       height: 400px;
     }
+
+    .button {
+      margin-top: 50px;
+    }
+    .btn-primary {
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
+      display: block;
+      background-color: $darkGreen;
+      color: $offWhite;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .card h5 a {
+      color: $darkGreen!important;
+    }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
 
     .button {
       margin-top: 50px;
@@ -182,6 +242,8 @@
     .card h5 a {
       color: $darkGreen!important;
     }
+>>>>>>> Stashed changes
+>>>>>>> 6f87b36fcfbf11363477a117d926bebf97dea575
     .img-center {
       margin: 0 auto;
       display: block;
