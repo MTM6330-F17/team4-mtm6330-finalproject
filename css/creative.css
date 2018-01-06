@@ -285,19 +285,22 @@ header .card {
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
 
-.bg-primary-hannah {
+.bg-primary {
   color: #E8E9F3 !important; }
 
-.bg-primary-hannah p {
+.card {
+  color: #000000; }
+
+.bg-primary p {
   text-align: left;
   padding-left: 15px;
   padding-right: 10px; }
 
-.bg-primary-hannah .card {
+.bg-primary .card {
   border: solid #B1E5F2 5px;
   margin: 10px;
   color: #005130 !important; }
-  .bg-primary-hannah .card h3 {
+  .bg-primary .card h3 {
     padding-top: 15px; }
 
 .nav-link {
@@ -306,9 +309,8 @@ header .card {
 hr {
   border-color: #005130 !important; }
 
-.bg-primary-hannah {
-  background-color: #005130 !important;
-  display: none; }
+.bg-primary {
+  background-color: #005130 !important; }
 
 .mobile {
   display: block; }
@@ -337,8 +339,6 @@ hr {
     width: 100%;
     margin: 0 auto;
     height: 400px; }
-  .mobile {
-    display: none; }
   .button {
     margin-top: 50px; }
   .btn-primary {
