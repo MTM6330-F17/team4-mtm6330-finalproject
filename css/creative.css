@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -254,6 +254,10 @@ body {
 header h1 {
   color: #005130 !important; }
 
+header h2 {
+  color: #005130 !important;
+  font-size: 2.5rem; }
+
 header .row {
   padding-top: 15%;
   padding-bottom: 10%; }
@@ -262,18 +266,30 @@ header .card {
   background-color: rgba(177, 229, 242, 0.5) !important;
   border-color: rgba(177, 229, 242, 0.25) !important;
   color: #005130 !important;
-  padding: 10px; }
+  padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.bg-primary {
+  background-color: #005130 !important; }
 
 .btn-primary {
-  background-color: #005130;
-  color: #E8E9F3;
-  margin-top: 50px; }
+  display: none; }
+
+.campus {
+  padding-top: 30px; }
+
+.contact-text {
+  padding-top: 10px; }
 
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
 
 .bg-primary {
   color: #E8E9F3 !important; }
+
+.card {
+  color: #000000; }
 
 .bg-primary p {
   text-align: left;
@@ -296,14 +312,46 @@ hr {
 .bg-primary {
   background-color: #005130 !important; }
 
-@media only screen and (min-width: 25em) {
-  .bg-primary {
-    display: none; }
-  .mobile {
-    display: block; } }
+.mobile {
+  display: block; }
+  .mobile a {
+    color: #005130 !important; }
+  .mobile .img-center {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    padding-top: 15px; }
+  .mobile .text-center {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0 auto; }
+
+.map {
+  width: 100%;
+  margin: 0 auto;
+  height: 300px; }
 
 @media only screen and (min-width: 60em) {
-  .bg-primary {
+  .bg-primary-hannah {
     display: block; }
-  .mobile {
-    display: none; } }
+  .map {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px; }
+  .button {
+    margin-top: 50px; }
+  .btn-primary {
+    display: block;
+    background-color: #005130;
+    color: #E8E9F3;
+    width: 50%;
+    margin: 0 auto; }
+  .card h5 a {
+    color: #005130 !important; }
+  .img-center {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px; } }

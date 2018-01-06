@@ -21,6 +21,7 @@
   $ib: inline-block;
   $leftAlign: left;
   $rightAlign: right;
+  $centerAlign: center;
 
 
 // Styles
@@ -54,6 +55,12 @@
   header h1 {
     color: $darkGreen!important;
   }
+
+  header h2 {
+    color: $darkGreen!important;
+    font-size: 2.5rem;
+  }
+
    header .row {
      padding-top: 15%;
      padding-bottom: 10%;
@@ -64,13 +71,24 @@
      border-color: rgba(177, 229, 242, 0.25)!important;
      color: $darkGreen!important;
      padding: 10px;
+     margin-left: 15px;
+     margin-right: 15px;
+   }
 
+   .bg-primary {
+     background-color: $darkGreen!important;
    }
 
    .btn-primary {
-     background-color: $darkGreen;
-     color: $offWhite;
-     margin-top: 50px;
+     display: none;
+   }
+
+   .campus {
+     padding-top: 30px;
+   }
+
+   .contact-text {
+     padding-top: 10px;
    }
 
   #mainNav, .card {
@@ -79,6 +97,10 @@
 
   .bg-primary {
     color: $offWhite!important;
+  }
+
+  .card {
+    color: #000000;
   }
 
   .bg-primary p {
@@ -94,9 +116,6 @@
     h3 {
     padding-top: 15px;
     }
-    h4 {
-
-    }
   }
 
   .nav-link {
@@ -111,16 +130,64 @@
     background-color: $darkGreen!important;
   }
 
-    .mobile {
+  .mobile {
+    display: block;
+    a {
+      color: $darkGreen!important;
+    }
+    .img-center {
+      margin: 0 auto;
       display: block;
+      width: 150px;
+      padding-top: 15px;
+    }
+    .text-center {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 90%;
+      margin: 0 auto;
     }
   }
 
+  .map {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+  }
+
+
+
+
   @media only screen and (min-width: 60em) {
-    .bg-primary {
+    .bg-primary-hannah {
       display: block;
     }
-    .mobile {
-      display: none;
+
+    .map {
+      width: 100%;
+      margin: 0 auto;
+      height: 400px;
     }
+
+    .button {
+      margin-top: 50px;
+    }
+    .btn-primary {
+      display: block;
+      background-color: $darkGreen;
+      color: $offWhite;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .card h5 a {
+      color: $darkGreen!important;
+    }
+    .img-center {
+      margin: 0 auto;
+      display: block;
+      width: 150px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
   }
