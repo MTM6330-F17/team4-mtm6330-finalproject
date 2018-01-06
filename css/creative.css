@@ -244,8 +244,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300; }
 
-.img-flex {
-  width: 100%; }
+.nav-link {
+  color: #005130 !important; }
 
 .img-break {
   padding-top: 25px;
@@ -253,6 +253,9 @@ body {
 
 header h1 {
   color: #005130 !important; }
+
+hr {
+  border-color: #005130 !important; }
 
 header h2 {
   color: #005130 !important;
@@ -272,24 +275,17 @@ header .card {
 
 .bg-primary {
   background-color: #005130 !important; }
+  .bg-primary h2, .bg-primary p, .bg-primary ul {
+    color: #E8E9F3 !important; }
 
 .btn-primary {
   display: none; }
 
-.campus {
-  padding-top: 30px; }
-
-.contact-text {
-  padding-top: 10px; }
-
 #mainNav, .card {
   background-color: #E8E9F3 !important; }
 
-.bg-primary {
-  color: #E8E9F3 !important; }
-
-.card {
-  color: #000000; }
+#accordion p, #accordion ul {
+  color: #005130 !important; }
 
 .bg-primary p {
   text-align: left;
@@ -303,38 +299,28 @@ header .card {
   .bg-primary .card h3 {
     padding-top: 15px; }
 
-.nav-link {
-  color: #005130 !important; }
+.img-center {
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 10px; }
 
-hr {
-  border-color: #005130 !important; }
-
-.bg-primary {
-  background-color: #005130 !important; }
-
-.mobile {
-  display: block; }
-  .mobile a {
-    color: #005130 !important; }
-  .mobile .img-center {
-    margin: 0 auto;
-    display: block;
-    width: 150px;
-    padding-top: 15px; }
-  .mobile .text-center {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    margin: 0 auto; }
+.img-flex {
+  width: 100%; }
 
 .map {
   width: 100%;
   margin: 0 auto;
   height: 300px; }
 
+.img-center-schedules {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  padding-top: 15px; }
+
 @media only screen and (min-width: 60em) {
-  .bg-primary-hannah {
-    display: block; }
   .map {
     width: 100%;
     margin: 0 auto;
@@ -343,15 +329,8 @@ hr {
     margin-top: 50px; }
   .btn-primary {
     display: block;
-    background-color: #005130;
-    color: #E8E9F3;
+    background-color: #005130 !important;
     width: 50%;
     margin: 0 auto; }
-  .card h5 a {
-    color: #005130 !important; }
-  .img-center {
-    margin: 0 auto;
-    display: block;
-    width: 150px;
-    padding-top: 15px;
-    padding-bottom: 15px; } }
+  .btn-primary a {
+    color: #E8E9F3 !important; } }

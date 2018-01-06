@@ -14,16 +14,6 @@
   $medGrey: #A6A6A8;
   $lightBlue: #B1E5F2;
 
-// Parameters
-  $fullWidth: 100%;
-  $halfWidth: 50%;
-
-  $ib: inline-block;
-  $leftAlign: left;
-  $rightAlign: right;
-  $centerAlign: center;
-
-
 // Styles
 
   html {
@@ -43,8 +33,8 @@
     font-weight: 300;
   }
 
-  .img-flex {
-    width: $fullWidth;
+  .nav-link {
+    color: $darkGreen!important;
   }
 
   .img-break {
@@ -54,6 +44,10 @@
 
   header h1 {
     color: $darkGreen!important;
+  }
+
+  hr {
+    border-color: $darkGreen!important;
   }
 
   header h2 {
@@ -77,34 +71,25 @@
 
    .bg-primary {
      background-color: $darkGreen!important;
+     h2, p, ul {
+       color: $offWhite!important;
+     }
    }
 
    .btn-primary {
      display: none;
    }
 
-   .campus {
-     padding-top: 30px;
-   }
-
-   .contact-text {
-     padding-top: 10px;
-   }
-
   #mainNav, .card {
     background-color: $offWhite!important;
   }
 
-  .bg-primary {
-    color: $offWhite!important;
-  }
-
-  .card {
-    color: #000000;
+  #accordion p, #accordion ul {
+    color: $darkGreen!important;
   }
 
   .bg-primary p {
-    text-align: $leftAlign;
+    text-align: left;
     padding-left: 15px;
     padding-right: 10px;
   }
@@ -118,36 +103,18 @@
     }
   }
 
-  .nav-link {
-    color: $darkGreen!important;
-  }
-
-  hr {
-    border-color: $darkGreen!important;
-  }
-
-  .bg-primary {
-    background-color: $darkGreen!important;
-  }
-
-  .mobile {
-    display: block;
-    a {
-      color: $darkGreen!important;
-    }
     .img-center {
       margin: 0 auto;
       display: block;
       width: 150px;
       padding-top: 15px;
-    }
-    .text-center {
-      padding-top: 10px;
       padding-bottom: 10px;
-      width: 90%;
-      margin: 0 auto;
     }
-  }
+
+
+    .img-flex {
+      width: 100%;
+    }
 
   .map {
     width: 100%;
@@ -155,39 +122,31 @@
     height: 300px;
   }
 
-
+  .img-center-schedules {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    padding-top: 15px;
+  }
 
 
   @media only screen and (min-width: 60em) {
-    .bg-primary-hannah {
-      display: block;
-    }
 
     .map {
       width: 100%;
       margin: 0 auto;
       height: 400px;
     }
-
     .button {
       margin-top: 50px;
     }
     .btn-primary {
       display: block;
-      background-color: $darkGreen;
-      color: $offWhite;
+      background-color: $darkGreen!important;
       width: 50%;
       margin: 0 auto;
     }
-    .card h5 a {
-      color: $darkGreen!important;
+    .btn-primary a {
+      color: $offWhite!important;
     }
-    .img-center {
-      margin: 0 auto;
-      display: block;
-      width: 150px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-    }
-
   }
