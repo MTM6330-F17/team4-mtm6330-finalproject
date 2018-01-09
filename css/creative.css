@@ -334,4 +334,7 @@ header .card {
     width: 50%;
     margin: 0 auto; }
   .btn-primary a {
-    color: #E8E9F3 !important; } }
+    color: #E8E9F3 !important; }
+  .card-width {
+    max-width: 450px;
+    margin: 0 auto; } }
